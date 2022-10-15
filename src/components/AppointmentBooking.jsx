@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button, Stack } from "react-bootstrap";
-
 import Card from 'react-bootstrap/Card';
-import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import Form from 'react-bootstrap/Form';
 
 function AppointmentBooking() {
@@ -27,7 +25,9 @@ function AppointmentBooking() {
                                         Login
                                     </Button>
                                     <Form.Text>New User? Do not have an account? </Form.Text>
-                                    <Button className="mb-3 mt-3" variant="primary" >Create New Account</Button>
+                                    <Button className="mb-3 mt-3" variant="primary" >
+                                        Create New Account
+                                    </Button>
                                 </Stack>
                             </Form>
                         </Card.Body>
