@@ -8,7 +8,7 @@ import CurrentToken from "./CurrentToken";
 
 function Main() {
     return (
-        <main className="main justify-content-center">
+        <main className="main">
             <BrowserRouter>
                 <Container className="col-md-7">
                     <Routes>
