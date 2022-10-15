@@ -17,8 +17,8 @@ function Dashboard() {
                         <Card.Body gap={5 } className="card-body">
                             
                             <ButtonToolbar className="d-flex justify-content-around" >
-                                <LinkContainer to="/book-appointment">
-                                    <Button >Book Appointment</Button>
+                                <LinkContainer to="/sign-in">
+                                    <Button>Book Appointment</Button>
                                 </LinkContainer>
                                 <LinkContainer to="/current-token">
                                     <Button >See Current Token Number</Button>
